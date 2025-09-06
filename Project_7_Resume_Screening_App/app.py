@@ -585,10 +585,10 @@ def main():
                 st.write(f"Matched Skills: {', '.join(skills) if skills else 'None'}")
         
         # Show current model info
-        st.subheader("ℹ️ Current Model Info")
-        st.info(f"📋 Available Categories: {', '.join(classifier.label_encoder.classes_) if classifier.label_encoder else 'Not trained yet'}")
-        st.info(f"🔧 Model Type: Logistic Regression with TF-IDF")
-        st.info(f"📊 Features: {classifier.tfidf_vectorizer.max_features} most frequent words")
+        # st.subheader("ℹ️ Current Model Info")
+        # st.info(f"📋 Available Categories: {', '.join(classifier.label_encoder.classes_) if classifier.label_encoder else 'Not trained yet'}")
+        # st.info(f"🔧 Model Type: Logistic Regression with TF-IDF")
+        # st.info(f"📊 Features: {classifier.tfidf_vectorizer.max_features} most frequent words")
 
 if __name__ == "__main__":
     # Check if running with streamlit
